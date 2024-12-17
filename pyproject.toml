@@ -1,0 +1,21 @@
+[project]
+name = "summlib"
+version = "0.1.0"
+description = "A library for summation operations"
+readme = "README.md"
+authors = [
+    { name = "David Maerzinger", email = "david.maerzinger@gmx.at" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.24.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
